@@ -221,13 +221,14 @@ function applyLanguage(lang) {
 }
 
 function initializeLanguageToggle() {
+    applyLanguage(currentLang);
+    
     const btn = document.querySelector('.btn-lang');
     if (!btn) return;
     btn.addEventListener('click', () => {
         currentLang = currentLang === 'en' ? 'zh' : 'en';
         applyLanguage(currentLang);
     });
-    applyLanguage(currentLang);
 }
 
 // ═══════════════════════════════════════════
