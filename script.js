@@ -209,7 +209,7 @@ function animateCounter(element) {
 // LANGUAGE TOGGLE
 // ═══════════════════════════════════════════
 
-let currentLang = localStorage.getItem('lang') || 'en';
+let currentLang = localStorage.getItem('lang') || 'zh';
 
 function applyLanguage(lang) {
     document.documentElement.setAttribute('lang', lang);
