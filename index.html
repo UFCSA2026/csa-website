@@ -26,11 +26,11 @@
             <a data-page="home" role="menuitem" class="nav-link active" onclick="navigatePage('home')" data-en="Home" data-zh="主页">首页</a>
             <a data-page="about" role="menuitem" class="nav-link" onclick="navigatePage('about')" data-en="About" data-zh="关于">关于</a>
             <div class="nav-dropdown">
-                <a role="menuitem" class="nav-link" data-page="events" onclick="navigatePage('events'); toggleDropdown(event)">Events ▼</a>
+                <a role="menuitem" class="nav-link" data-page="events" onclick="navigatePage('events'); toggleDropdown(event)" data-en="Events ▼" data-zh="活动 ▼">Events ▼</a>
                 <div class="dropdown-menu">
-                    <a onclick="navigatePage('gallery'); closeDropdown()">Gallery</a>
-                    <a onclick="navigatePage('upcoming'); closeDropdown()">Upcoming Events</a>
-                    <a onclick="navigatePage('past'); closeDropdown()">Past Events</a>
+                    <a onclick="navigatePage('gallery'); closeDropdown()" data-en="Gallery" data-zh="相册">Gallery</a>
+                    <a onclick="navigatePage('upcoming'); closeDropdown()" data-en="Upcoming Events" data-zh="即将举办的活动">Upcoming Events</a>
+                    <a onclick="navigatePage('past'); closeDropdown()" data-en="Past Events" data-zh="过去的活动">Past Events</a>
                 </div>
             </div>
             <a data-page="sponsorship" role="menuitem" class="nav-link" onclick="navigatePage('sponsorship')" data-en="Sponsorship" data-zh="赞助">赞助</a>
@@ -60,11 +60,11 @@
         <nav style="padding: 0 1.5rem;">
             <a class="nav-link" data-page="home" onclick="navigatePage('home')">首页</a>
             <a class="nav-link" data-page="about" onclick="navigatePage('about')">关于</a>
-            <a class="nav-link" onclick="navigatePage('events'); toggleMobileDropdown(event)">活动 ▼</a>
+            <a class="nav-link" onclick="navigatePage('events'); toggleMobileDropdown(event)" data-en="Events ▼" data-zh="活动 ▼">活动 ▼</a>
             <div class="mobile-dropdown-menu" style="display: none; padding-left: 1rem;">
-                <a onclick="navigatePage('gallery'); closeDropdown()">Gallery</a>
-                <a onclick="navigatePage('upcoming'); closeDropdown()">Upcoming Events</a>
-                <a onclick="navigatePage('past'); closeDropdown()">Past Events</a>
+                <a onclick="navigatePage('gallery'); closeDropdown()" data-en="Gallery" data-zh="相册">Gallery</a>
+                <a onclick="navigatePage('upcoming'); closeDropdown()" data-en="Upcoming Events" data-zh="即将举办的活动">Upcoming Events</a>
+                <a onclick="navigatePage('past'); closeDropdown()" data-en="Past Events" data-zh="过去的活动">Past Events</a>
             </div>
             <a class="nav-link" data-page="sponsorship" onclick="navigatePage('sponsorship')">赞助</a>
             <a class="nav-link" onclick="navigatePage('resources'); toggleMobileDropdown(event)">资源 ▼</a>
@@ -901,7 +901,7 @@ Through structured programming and responsible stewardship, we offer sponsors me
 
             <div class="footer-column">
                 <h3 data-en="Contact & Follow" data-zh="联系 & 关注">联系 & 关注</h3>
-                <p><strong>Email:</strong> ufcssa@ufl.edu</p>
+                <p><strong>Email:</strong> ufcsaoutreach@gmail.com</p>
                 <p><strong>Phone:</strong> (352) 392-1222</p>
                 <div class="social-icons">
                     <div class="social-icon" title="WeChat" role="link" tabindex="0">微</div>
