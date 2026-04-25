@@ -1,5 +1,11 @@
 name = "csa-website"
 compatibility_date = "2024-01-01"
 
+[env.production]
+name = "csa-website"
+
+[assets]
+directory = "."
+
 # Deploy this static site with:
 #   npx wrangler pages deploy . --project-name=csa-website
