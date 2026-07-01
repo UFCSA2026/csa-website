@@ -61,6 +61,11 @@ nav {
     gap: 1rem;
 }
 
+.nav-brand {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .nav-seal {
     width: 40px;
     height: 40px;
